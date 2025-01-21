@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="copyright">
         <p></p>
         <p>
-          <span>© 2023</span> Code with ❤️ by. <span>Asharib Ali</span>
+          <span>© 2025</span> All rights reserved by GlowHaven. <span></span>
         </p>
         <p></p>
       </div>

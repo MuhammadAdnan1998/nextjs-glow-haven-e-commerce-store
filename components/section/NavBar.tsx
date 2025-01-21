@@ -19,19 +19,19 @@ import { CiSignpostDuo1 } from "react-icons/ci";
 
 const manuLi = [
   {
-    name: "Female Clothes 🙎",
+    name: "Female Clothes 👚",
     path: "/female",
   },
   {
-    name: "Male Clothes 👨‍💻",
+    name: "Male Clothes 👕",
     path: "/male",
   },
   {
-    name: "Sun Glasses👓",
+    name: "Sun Glasses 👓",
     path: "/glasses",
   },
   {
-    name: "All Products 🌱",
+    name: "All Products 🏪",
     path: "/products",
   },
 ];
@@ -51,9 +51,9 @@ const Navbar = () => {
   return (
     <nav className="flex lg:px-20 px-10 justify-between items-center h-20 ">
       <Link href="/" className="ml-4 flex lg:ml-0 gap-x-2">
-        <p className="font-bold text-xl">ASHARIB STORE</p>{" "}
-        <span role="img" aria-label="fire emoji">
-          🔥
+        <p className="font-bold text-xl">GlowHaven-Store</p>{" "}
+        <span role="img" aria-label="GlowHaven emoji">
+          🎀
         </span>
       </Link>
       <div className="lg:flex hidden ">
