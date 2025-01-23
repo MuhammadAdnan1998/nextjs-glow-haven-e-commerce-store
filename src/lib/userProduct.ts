@@ -1,9 +1,7 @@
 import { client } from "./sanityClient";
 
 async function vercelProduct() {
-    const res = await fetch(`https://nextjs-glow-haven-e-commerce-store.vercel.app/`, {
-      cache: "no-store",
-    });
+    const res = await fetch(`https://nextjs-glow-haven-e-commerce-store.vercel.app/`)
     try {
       if (res.status === 200) {
         const result = await res.json();
@@ -28,7 +26,7 @@ const sanityProduct = async (product_id: string) => {
         tag
       },
       slug,
-    }`, {
+    }!cache`, {
         product_id
   });
     return res
