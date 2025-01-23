@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+  "proxy": "https://nextjs-glow-haven-e-commerce-store.vercel.app/"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.21.1",
@@ -53,6 +54,7 @@
     "tailwindcss": "3.3.2",
     "tailwindcss-animate": "^1.0.5",
     "typescript": "5.0.4"
+    
   },
   "devDependencies": {
     "@types/canvas-confetti": "^1.6.0"
