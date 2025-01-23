@@ -3,7 +3,7 @@ import { client } from "./sanityClient";
 async function vercelProduct() {
   try {
     const res = await fetch(`https://nextjs-glow-haven-e-commerce-store.vercel.app/`);
-
+    
     if (res.status === 200) {
       const result = await res.json();
       return result;
