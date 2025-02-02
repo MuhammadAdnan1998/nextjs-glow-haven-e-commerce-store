@@ -9,7 +9,7 @@ import {
   feature3,
   feature4,
   header,
-} from "@/public/assests";
+} from "../../public/assests";
 
 const Hero = () => {
   return (
