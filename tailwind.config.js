@@ -2,7 +2,11 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        border: "#E5E7EB", // Define custom border color
+      },
+    },
   },
   plugins: {
     tailwindcss: {},
