@@ -11,6 +11,8 @@ import SearchProvider from "../context/searchContext";
 import CartProvider from "../context/cartContext";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "@/styles/globals.css";
+
 
 export const metadata = {
   title: "Nextjs GlowHaven E-commerce Store",

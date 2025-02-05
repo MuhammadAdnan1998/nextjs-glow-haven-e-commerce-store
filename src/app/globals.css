@@ -74,15 +74,17 @@
   * {
     @apply border-gray-200 max-w-none w-auto p-0 m-0 box-border;
   }
+  
   body {
-    @apply bg-background text-foreground font-sans overflow-x-hidden ;
+    @apply bg-background text-foreground font-sans overflow-x-hidden;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
+
 @layer components {
   .dropDown_box {
-    @apply shadow-lg shadow-[#0f172a] z-30 bg-gray-100 transition ease-in-out delay-100 duration-300 border-[0.5px] divide-y-2 w-full p-4 items-start rounded-lg absolute top-12;
-}
+    @apply shadow-lg shadow-[#0f172a] z-30 bg-gray-100 transition ease-in-out delay-100 duration-300 border-[0.5px] divide-y-2  w-full p-4 items-start rounded-lg absolute top-12 
+  }
   .header {
     @apply relative flex justify-between gap-[4rem];
   }
